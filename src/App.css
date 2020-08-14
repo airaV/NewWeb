@@ -6,9 +6,9 @@
   height: 9vmin;
   pointer-events: none;
   position: absolute;
-        left: 755px; top: 30px;
-        width:200px;
-        height:50px;
+        left: 50px; top: 45px;
+        width:150px;
+        height:30px;
 }
 
 @media (prefers-reduced-motion: no-preference) {

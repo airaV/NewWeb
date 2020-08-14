@@ -19,36 +19,14 @@ class Home extends Component {
        
         <Slider/>
       
-        <div>
-        <h2 className="hometitle">EXPLORE OUR BRANDS</h2>
-        <a href="https://americanstandard.com.ph/"><img src={i1} className="homebrands1" alt="i1" /></a>
-        <a href="https://www.grohe.ph/en_ph/"><img src={i2} className="homebrands2" alt="i2" /></a>
-        <a href="https://www.inax.com/"><img src={i3} className="homebrands3" alt="i3" /></a>
-        <a href="https://jaxson.jp/"><img src={i4} className="homebrands4" alt="i4" /></a>
-        <a href="https://www.tostemthailand.com/"><img src={i5} className="homebrands5" alt="i5" /></a>
+        <div className="lixcontent">
+        <h1>Who is Tostem</h1>
 
-        <p className="brand1Content">AMERICAN STANDARD</p>
-        <p className="brand2Content">GROHE</p>
-        <p className="brand3Content">INAX</p>
-        <p className="brand4Content">JAXSON</p>
-        <p className="brand5Content">TOSTEM</p>
-<p className="brand1text">
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed odio a odio ultricies facilisis. Vivamus vel egestas mi, ac auctor metus. Suspendisse egestas sodales posuere. 
-</p>
-<p className="brand2text">
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed odio a odio ultricies facilisis. Vivamus vel egestas mi, ac auctor metus. Suspendisse egestas sodales posuere. 
-</p>
-<p className="brand3text">
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed odio a odio ultricies facilisis. Vivamus vel egestas mi, ac auctor metus. Suspendisse egestas sodales posuere. 
-</p>
-<p className="brand4text">
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed odio a odio ultricies facilisis. Vivamus vel egestas mi, ac auctor metus. Suspendisse egestas sodales posuere. 
-</p>
-<p className="brand5text">
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed odio a odio ultricies facilisis. Vivamus vel egestas mi, ac auctor metus. Suspendisse egestas sodales posuere. 
-</p>
-
-      </div>
+        <p className="lixtext">
+        Recognized as the industry leading brand in Japan for global housing and building materials, TOSTEM provides a comprehensive range of solutions to ensure our winning advantage in a highly on over a half-century of experience and expertise in developing innovative technology that anticipates not only the needs of society tomorrow, but the needs of clients and consumers here and now.
+TOSTEM engages in the product development, manufacturing and marketing of such diverse products as window sash, entrance doors, and exterior products, to realize one single, simple concept that we call ”Aesthetic Housing Envelope”.
+        </p>
+        </div>
       <div >
 
 
