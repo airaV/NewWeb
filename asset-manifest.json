@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/NewWeb/static/css/main.4abfd27a.chunk.css",
-    "main.js": "/NewWeb/static/js/main.a38fdaa4.chunk.js",
-    "main.js.map": "/NewWeb/static/js/main.a38fdaa4.chunk.js.map",
+    "main.js": "/NewWeb/static/js/main.26332253.chunk.js",
+    "main.js.map": "/NewWeb/static/js/main.26332253.chunk.js.map",
     "runtime-main.js": "/NewWeb/static/js/runtime-main.b66c03d8.js",
     "runtime-main.js.map": "/NewWeb/static/js/runtime-main.b66c03d8.js.map",
     "static/js/2.78676302.chunk.js": "/NewWeb/static/js/2.78676302.chunk.js",
     "static/js/2.78676302.chunk.js.map": "/NewWeb/static/js/2.78676302.chunk.js.map",
     "index.html": "/NewWeb/index.html",
-    "precache-manifest.5dc0f0be2b58c4021d8847703339a749.js": "/NewWeb/precache-manifest.5dc0f0be2b58c4021d8847703339a749.js",
+    "precache-manifest.d2ced157616d6d8cabbd9b2f87ab6d79.js": "/NewWeb/precache-manifest.d2ced157616d6d8cabbd9b2f87ab6d79.js",
     "service-worker.js": "/NewWeb/service-worker.js",
     "static/css/main.4abfd27a.chunk.css.map": "/NewWeb/static/css/main.4abfd27a.chunk.css.map",
     "static/js/2.78676302.chunk.js.LICENSE.txt": "/NewWeb/static/js/2.78676302.chunk.js.LICENSE.txt",
@@ -42,6 +42,6 @@
     "static/js/runtime-main.b66c03d8.js",
     "static/js/2.78676302.chunk.js",
     "static/css/main.4abfd27a.chunk.css",
-    "static/js/main.a38fdaa4.chunk.js"
+    "static/js/main.26332253.chunk.js"
   ]
 }
