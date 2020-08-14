@@ -49,25 +49,20 @@ class Main extends Component {
              
               </header>
          
-
-
+              <img src={logo} className="App-logo" alt="logo" />
+             
           <ul className="header">
+         
           <li><NavLink exact to="/">HOME</NavLink></li>
          <li><NavLink to="/about">ABOUT US </NavLink></li>
             <li><NavLink to="/product">PRODUCTS</NavLink></li>
             <li><NavLink to="/gallery">GALLERY</NavLink></li>
             <li><NavLink to="/contact">CONTACT</NavLink></li>
             <li><NavLink to="/dealer">DEALER</NavLink></li>
-            <li> &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;
-            <img src={logo} className="App-logo" alt="logo" />
-             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;
-             &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; </li>
             <li><NavLink to="/quotation">ONLINE QUOTATION</NavLink></li>
             <li ><NavLink to="/giesta">GIESTA DESIGN SIMULATION</NavLink></li>
             <li ><NavLink to="/professionals">FOR PROFESSIONALS</NavLink></li>
            
-
-            
           </ul>
 
           <div className="content">
