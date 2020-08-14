@@ -1,0 +1,22 @@
+.description {
+    position: relative;
+    text-align: center;
+    background-color:whitesmoke;
+    width: 100%;
+    height: 200px;
+    
+  }
+  .des{
+    position: absolute;
+    left: 200px;
+  
+    color:gray;
+  }
+  .destext{
+    position: absolute;
+    left: 800px;
+    width: 600px;
+    height:300px;
+    text-align: justify;
+    color:gray;
+  }
