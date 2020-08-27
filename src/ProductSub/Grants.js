@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Footer from '../Footer.js'
-import g from '../g.png'
+import g from '../g1.jpg'
 import '../Grants.css';
 
 class Grants extends Component {
@@ -9,7 +9,7 @@ class Grants extends Component {
       <div>
        <div className="journeyback">
 
-<img src={g} className="aboutpic" alt="aboutpic" />
+<img src={g} className="grantspic" alt="grantspic" />
 <p className="grant"><h1>GRANTS</h1>
 <br/>TOSTEM engages in the product development, manufacturing and marketing of such diverse products as window sash, entrance doors, .</p>
 

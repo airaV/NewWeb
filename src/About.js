@@ -3,10 +3,10 @@ import {
   NavLink,
   HashRouter
 } from "react-router-dom";
-import p1 from './Aboutpic/group.png'
-import p2 from './Aboutpic/journey.png'
-import p3 from './Aboutpic/team.png'
-import p4 from './Aboutpic/tostem.png'
+import p1 from './Aboutpic/group1.png'
+import p2 from './Aboutpic/journey1.png'
+import p3 from './Aboutpic/team1.png'
+import p4 from './Aboutpic/tostem1.png'
 import lixil from './tos.jpg'
 import sm1 from './Social/fb.png';
 import sm2 from './Social/ig.png';
@@ -56,14 +56,16 @@ class About extends Component {
 
 
          <div className="vision">
-           <p color="white"><font color="black"> <b>VISION</b> </font><br/>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed odio a odio ultricies facilisis. Vivamus 
+           <p ><font color="black"> <b>VISION</b> </font><br/>
+           <font color="gray">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed odio a odio ultricies facilisis. Vivamus 
            vel egestas mi, ac auctor metus. Suspendisse egestas sodales posuere. Vivamus a elementum neque, 
            ut condimentum turpis. Donec eu pretium diam. Nam euismod tortor interdum scelerisque porta. Nam 
-           nec augue lorem. Etiam vitae nisi id libero commodo sagittis. </p>
-           <p color="white"><font color="black"> <b>MISSION</b> </font><br/>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed odio a odio ultricies facilisis. Vivamus 
+           nec augue lorem. Etiam vitae nisi id libero commodo sagittis. </font></p>
+           <p ><font color="black"> <b>MISSION</b> </font><br/>
+           <font color="gray">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed odio a odio ultricies facilisis. Vivamus 
            vel egestas mi, ac auctor metus. Suspendisse egestas sodales posuere. Vivamus a elementum neque, 
            ut condimentum turpis. Donec eu pretium diam. Nam euismod tortor interdum scelerisque porta. Nam 
-           nec augue lorem. Etiam vitae nisi id libero commodo sagittis. </p>
+           nec augue lorem. Etiam vitae nisi id libero commodo sagittis. </font></p>
      
            </div>
            <div className="visionpic">

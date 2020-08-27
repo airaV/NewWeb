@@ -16,17 +16,17 @@ class Product extends Component {
 <div class="navbar">
 
 <div class="dropdown">
-  <button class="dropbtn"><p color="black">WINDOWS AND DOORS</p>
+  <button class="dropbtn" ><p>WINDOWS AND DOORS</p>
     <i class="fa fa-caret-down"></i>
   </button>
   <div class="dropdown-content">
-  <NavLink to="/grants">GRANTS</NavLink>
-  <NavLink to="/weplus">WE PLUS</NavLink>
+  <NavLink to="/grants" ><font color="white">GRANTS  </font></NavLink>
+  <NavLink to="/weplus"><font color="white">WE PLUS</font></NavLink>
+  <NavLink to="/grants"><font color="white">P 70</font></NavLink>
+  <NavLink to="/grants"><font color="white">WE 70</font></NavLink>
+  <NavLink to="/grants"><font color="white">WE 40</font></NavLink>
+  <NavLink to="/grants"><font color="white">INTERIOR SERIES</font></NavLink>
 
-  <NavLink to="/grants">P 70</NavLink>
-  <NavLink to="/grants">WE 70</NavLink>
-  <NavLink to="/grants">WE 40</NavLink>
-  <NavLink to="/grants">INTERIOR SERIES</NavLink>
   </div>
 </div> 
 <div class="dropdown">
@@ -34,7 +34,7 @@ class Product extends Component {
     <i class="fa fa-caret-down"></i>
   </button>
   <div class="dropdown-content">
-    <NavLink to="/prodgiesta">GIESTA IN/OUT SWING</NavLink>
+    <NavLink to="/prodgiesta"><font color="white">GIESTA IN/OUT SWING</font></NavLink>
   </div>
 </div> 
 <a href="#news"><p color="black">EXTERIOR</p></a>

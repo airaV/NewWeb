@@ -16,7 +16,10 @@ function Slider(){
         <ImgComp src={i3}/>,
         <ImgComp src={i4}/>,
         <ImgComp src={i5}/>
+        
     ];
+
+
     const goLeft = () => {
        // console.log(x)
         x === 0 ? setX(-100 * (sliderArr.length-1)) : setX(x + 100);

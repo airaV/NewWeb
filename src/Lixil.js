@@ -15,7 +15,7 @@ class Lixil extends Component {
 <p className="aboutLix"><h1>ABOUT LIXIL</h1>
 <br/>TOSTEM engages in the product development, manufacturing and marketing of such diverse products as window sash, entrance doors, and exterior products, to realize one single, simple concept that we call ”Aesthetic Housing Envelope”.</p>
 </div>
-<div className="lixcontent">
+<div className="aboutlixcontent">
         <h1>Who is Lixil</h1>
 
         <p className="lixtext">

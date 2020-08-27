@@ -1,15 +1,12 @@
 import React, { Component } from "react";
 import Slider from './Slider';
-import i1 from './brands/americanS.jpg';
-import i2 from './brands/grohe.jpg';
-import i3 from './brands/inax.png';
-import i4 from './brands/jaxson.jpg';
-import i5 from './brands/tostem.jpg';
 import sm1 from './Social/fb.png';
 import sm2 from './Social/ig.png';
 import sm3 from './Social/li.png';
 import sm4 from './Social/twitter.png';
 import sm5 from './Social/yt.png';
+import h1 from './Highlight/Feature_1.jpg';
+import news from './news.jpg';
 
  
 class Home extends Component {
@@ -20,16 +17,21 @@ class Home extends Component {
         <Slider/>
       
         <div className="lixcontent">
-        <h1>Who is Tostem</h1>
+        <h1>Products Highlight</h1>
 
-        <p className="lixtext">
-        Recognized as the industry leading brand in Japan for global housing and building materials, TOSTEM provides a comprehensive range of solutions to ensure our winning advantage in a highly on over a half-century of experience and expertise in developing innovative technology that anticipates not only the needs of society tomorrow, but the needs of clients and consumers here and now.
-TOSTEM engages in the product development, manufacturing and marketing of such diverse products as window sash, entrance doors, and exterior products, to realize one single, simple concept that we call ”Aesthetic Housing Envelope”.
-        </p>
+<img src={h1} className="hilight" alt="h1"/>
+<p className="hilighttext">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ultricies dolor leo, et aliquet neque semper sit amet. Maecenas a posuere justo, vitae pretium orci. Phasellus cursus ex in dui fringilla, et finibus erat egestas. Vestibulum mattis lectus tincidunt dapibus scelerisque. Curabitur a sapien tempor, congue leo vel, vestibulum enim. Morbi ut lobortis purus. Morbi non lobortis urna. Nulla facilisi. Aenean maximus odio ac egestas gravida. Pellentesque sed purus scelerisque, pellentesque felis et, dapibus metus.</p>
+<img src={h1} className="hilight2" alt="h1"/>   
+<p className="hilighttext2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ultricies dolor leo, et aliquet neque semper sit amet. Maecenas a posuere justo, vitae pretium orci. Phasellus cursus ex in dui fringilla, et finibus erat egestas. Vestibulum mattis lectus tincidunt dapibus scelerisque. Curabitur a sapien tempor, congue leo vel, vestibulum enim. Morbi ut lobortis purus. Morbi non lobortis urna. Nulla facilisi. Aenean maximus odio ac egestas gravida. Pellentesque sed purus scelerisque, pellentesque felis et, dapibus metus.</p>
+<img src={h1} className="hilight3" alt="h1"/>   
+<p className="hilighttext3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ultricies dolor leo, et aliquet neque semper sit amet. Maecenas a posuere justo, vitae pretium orci. Phasellus cursus ex in dui fringilla, et finibus erat egestas. Vestibulum mattis lectus tincidunt dapibus scelerisque. Curabitur a sapien tempor, congue leo vel, vestibulum enim. Morbi ut lobortis purus. Morbi non lobortis urna. Nulla facilisi. Aenean maximus odio ac egestas gravida. Pellentesque sed purus scelerisque, pellentesque felis et, dapibus metus.</p>
+       
+       
         </div>
-      <div >
-
-
+<div className="newsevent">
+  <p className="newseventtitle">News &amp; Event</p>
+  </div>
+<div >
 <table className="footer">
   <tr>
     <th>

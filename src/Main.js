@@ -49,10 +49,10 @@ class Main extends Component {
              
               </header>
          
-              <img src={logo} className="App-logo" alt="logo" />
+             
              
           <ul className="header">
-         
+         <li> <img src={logo} className="App-logo" alt="logo" /></li>
           <li><NavLink exact to="/">HOME</NavLink></li>
          <li><NavLink to="/about">ABOUT US </NavLink></li>
             <li><NavLink to="/product">PRODUCTS</NavLink></li>

@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import gallery from './building.png'
+import gallery from './gallery.jpg'
 import a1 from './Gallerypic/album1.jpg';
 import a2 from './Gallerypic/album2.jpg';
 import a3 from './Gallerypic/album3.jpg';

@@ -29,17 +29,21 @@
 }
 
 .navbar a:hover, .dropdown:hover .dropbtn {
-  background-color: gray;
+  background-color:none;
 }
+
 
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #f9f9f9;
+  background-color:  
+  rgba(0, 0, 0, 0.356);
   min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 8px 16px 0px rgba(2, 2, 2, 0.2);
   z-index: 1;
   font-family: 'Segoe UI';
+
+ 
 }
 
 .dropdown-content a {
@@ -52,7 +56,7 @@
 }
 
 .dropdown-content a:hover {
-  background-color: #ddd;
+  background-color: gray;
 }
 
 .dropdown:hover .dropdown-content {

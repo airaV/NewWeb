@@ -1,89 +1,86 @@
 .slider {
 
-position: relative;
-width: 100%;
-height: 80vh;
-box-sizing: border-box;
-margin:0;
-padding:0;
-display: flex;
-align-items: center;
-overflow: hidden;
-background: black;
-
-//background: none;
-i{
-    font-size: 2vw;
-}
-
-}
-
-.slide{
-min-width: 100%;
-height: 80%;
-transition: 0.5s;
-overflow: hidden;
-}
-
-%btn-styles{
-    position:absolute;
-    top: 50%;
-
-    transform: translateY(-50%);
-    width: 10%;
-    height: 80%;
-
-
-
-}
-
-
-#goLeft{
-
-    left: 0;
-    position:absolute;
-    top: 50%;
-
-    transform: translateY(-50%);
-    width: 3%;
-    height: 80%;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
     background: none;
-  
-    border: none;
-    outline: none;
-    transition: .5s;
-    &:hover{
-        background: rgba(0, 0, 0, 0.356);
-        cursor:pointer;
-        i{
-            color:rgb(119 , 119 ,119);
+    
+    //background: none;
+    i{
+        font-size: 2vw;
+    }
+    
+    }
+    
+    .slide{
+    min-width: 100%;
+    height: 80%;
+    transition: 0.5s;
+    overflow: hidden;
+    }
+    
+    %btn-styles{
+        position:absolute;
+        top: 50%;
+        width: 10%;
+        height: 80%;
+    
+    
+    
+    }
+    
+    
+    #goLeft{
+    
+        left: 0;
+        position:absolute;
+        top: 50%;  
+        transform: translateY(-50%);
+        width: 3%;
+        height: 80%;
+        background: none;
+      
+        border: none;
+        outline: none;
+        transition: .5s;
+        &:hover{
+            background: rgba(0, 0, 0, 0.356);
+            cursor:pointer;
+            i{
+                color:rgb(119 , 119 ,119);
+            }
         }
-    }
-    
-   // @extend btn-styles;
-}
-
-
-#goRight{
-    right: 0;
-    position:absolute;
-    top: 50%;
-
-    transform: translateY(-50%);
-    width: 3%;
-    height: 80%;
-    background: none;
-    border: none;
-    outline: none;
-    transition: .5s;
-    &:hover{
-        background: rgba(0, 0, 0, 0.356);
-        cursor:pointer;
-        i{
-            color:rgb(119 , 119 ,119);
-        }   
+        
+       // @extend btn-styles;
     }
     
     
-    //@extend btn-styles;
-}
+    #goRight{
+        right: 0;
+        position:absolute;
+        top: 50%;
+    
+        transform: translateY(-50%);
+        width: 3%;
+        height: 80%;
+        background: none;
+        border: none;
+        outline: none;
+        transition: .5s;
+        &:hover{
+            background: rgba(0, 0, 0, 0.356);
+            cursor:pointer;
+            i{
+                color:rgb(119 , 119 ,119);
+            }   
+        }
+        
+        
+        //@extend btn-styles;
+    }
