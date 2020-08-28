@@ -30,19 +30,20 @@ class About extends Component {
 
 
         <h1 className="abouttitle">Who is Tostem</h1>
-
-        <p className="aboutcontent">
+<div className="aboutcontent">
+        <p className="abttext">
           Recognized as the industry leading brand in Japan for global housing and building materials, 
-        <br/>TOSTEM provides a comprehensive range of solutions to ensure our winning advantage in a 
-        <br/>highly on over a half-century of experience and expertise in developing innovative 
-        <br/>technology that anticipates not only the needs of society tomorrow, but the needs of 
-        <br/>clients and consumers here and now.TOSTEM engages in the product development, manufacturing
-        <br/> and marketing of such diverse products as window sash, entrance doors, and exterior 
-        <br/>products, to realize one single, simple concept that we call ”Aesthetic Housing Envelope”.
-
+        TOSTEM provides a comprehensive range of solutions to ensure our winning advantage in a 
+        highly on over a half-century of experience and expertise in developing innovative 
+        technology that anticipates not only the needs of society tomorrow, but the needs of 
+       clients and consumers here and now.
+       TOSTEM engages in the product development, manufacturing
+         and marketing of such diverse products as window sash, entrance doors, and exterior 
+        products, to realize one single, simple concept that we call ”Aesthetic Housing Envelope”.
+        At TOSTEM, our focus in on enhancing product design and providing intelligent functionality, to provide solutions that deliver additional comfort to people’s living spaces and help make the house a home.
         
         </p>
-       
+      </div> 
         <div className="aboutnext">
       <NavLink to="/lixil"><img src={p1} className="aboutp1"  alt="aboutp1"/></NavLink> 
       <NavLink to="/journey"><img src={p2} className="aboutp2"  alt="aboutp2"/></NavLink> 

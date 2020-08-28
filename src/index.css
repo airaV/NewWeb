@@ -31,11 +31,11 @@ ul.header li a {
   
 }
 .menuheader{
-  background-color: gray;
+  background-color: none;
   padding: 0;
   text-align: center;
   width: 100%;
-  height:30px;
+  height:0px;
 
 }
 
@@ -50,7 +50,7 @@ ul.header li a {
         
 }
 .content {
-  background-color: gray;
+  background-color: #000000;
 
 }
 .content h2 {
@@ -83,6 +83,12 @@ ul.header li a {
 .grantspic{
   position: absolute;
 top: 40px;
+  width:100%;
+  height: 500px;
+}
+.homepic{
+  position: relative;
+
   width:100%;
   height: 500px;
 }
@@ -167,10 +173,17 @@ top: 40px;
   height: 200px;
   
 }
+.abttext{
+  position: absolute;
+  left: 450px;
+  width: 800px;
+  height:300px;
+  text-align: justify;
+}
 
 .lixtext{
   position: absolute;
-  left: 400px;
+  left: 450px;
   width: 800px;
   height:300px;
   text-align: justify;
@@ -882,7 +895,7 @@ text-align: center;
   left:500px;
   position: absolute;
   text-align: center;
-  top: 203px;
+  top: 180px;
   color: gray;
 }
 

@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import ReactDOM from "react-dom";
 import Slider from './Slider';
 import sm1 from './Social/fb.png';
 import sm2 from './Social/ig.png';
@@ -6,16 +7,16 @@ import sm3 from './Social/li.png';
 import sm4 from './Social/twitter.png';
 import sm5 from './Social/yt.png';
 import h1 from './Highlight/Feature_1.jpg';
-import news from './news.jpg';
+import pic from './pics/2.jpg';
 
- 
+
 class Home extends Component {
   render() {
+
     return (
+
       <div>
-       
-        <Slider/>
-      
+   <Slider/>
         <div className="lixcontent">
         <h1>Products Highlight</h1>
 
@@ -28,9 +29,11 @@ class Home extends Component {
        
        
         </div>
-<div className="newsevent">
-  <p className="newseventtitle">News &amp; Event</p>
+        <div >
+  <img src={pic} className="homepic" alt="pic"/>
   </div>
+
+
 <div >
 <table className="footer">
   <tr>
@@ -42,7 +45,7 @@ class Home extends Component {
     </tr>
     <tr>
     <td>Thailand</td>
-   <td>Windows & Doors </td>
+   <td>Windows &amp; Doors </td>
    <td>For the latest on Lixil innovations, 
    </td>
     </tr>
