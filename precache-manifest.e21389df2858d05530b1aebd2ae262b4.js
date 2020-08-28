@@ -1,43 +1,43 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c26f886d445c7cc30ecbf914ddd3872c",
+    "revision": "0458ef7c37dbce3233c7f6564247dd3e",
     "url": "/NewWeb/index.html"
   },
   {
-    "revision": "ba0ae3074b7394ebce60",
-    "url": "/NewWeb/static/css/main.55f0629b.chunk.css"
+    "revision": "2b85b6da1a7a616e189c",
+    "url": "/NewWeb/static/css/main.bd9ac8ae.chunk.css"
   },
   {
-    "revision": "4b05f6cc68a9bdde0b95",
-    "url": "/NewWeb/static/js/2.ad753fdd.chunk.js"
+    "revision": "b90c016c8e5583845ed7",
+    "url": "/NewWeb/static/js/2.4bbc2702.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/NewWeb/static/js/2.ad753fdd.chunk.js.LICENSE.txt"
+    "url": "/NewWeb/static/js/2.4bbc2702.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ba0ae3074b7394ebce60",
-    "url": "/NewWeb/static/js/main.8957a2b7.chunk.js"
+    "revision": "2b85b6da1a7a616e189c",
+    "url": "/NewWeb/static/js/main.84ff4875.chunk.js"
   },
   {
     "revision": "cc646f854cb8be24dc9f",
     "url": "/NewWeb/static/js/runtime-main.b66c03d8.js"
   },
   {
-    "revision": "f78501f9dcdea8f2ecfe40138559c191",
-    "url": "/NewWeb/static/media/1.f78501f9.jpg"
+    "revision": "bcfe1c7ce07cb5265ca7a845b098cebe",
+    "url": "/NewWeb/static/media/1.bcfe1c7c.jpg"
   },
   {
     "revision": "3f93cbb3f0b78ecb49cb3635966e30f7",
     "url": "/NewWeb/static/media/2.3f93cbb3.jpg"
   },
   {
-    "revision": "467fb36db85b4f42f0733c9337fabdd2",
-    "url": "/NewWeb/static/media/3.467fb36d.jpg"
+    "revision": "f78501f9dcdea8f2ecfe40138559c191",
+    "url": "/NewWeb/static/media/3.f78501f9.jpg"
   },
   {
-    "revision": "bcfe1c7ce07cb5265ca7a845b098cebe",
-    "url": "/NewWeb/static/media/4.bcfe1c7c.jpg"
+    "revision": "467fb36db85b4f42f0733c9337fabdd2",
+    "url": "/NewWeb/static/media/4.467fb36d.jpg"
   },
   {
     "revision": "f544ca04b12c638fa1cda4c6bacd3daf",
@@ -106,10 +106,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "c7a61e19c33f3801bab74deaf1cd1d88",
     "url": "/NewWeb/static/media/mark.c7a61e19.jpg"
-  },
-  {
-    "revision": "a6e91f8e9339af36cc6d0f4cf6ecdcbc",
-    "url": "/NewWeb/static/media/news.a6e91f8e.jpg"
   },
   {
     "revision": "e7a20750f11e3c6eb1c6ce2d92fe5f32",
